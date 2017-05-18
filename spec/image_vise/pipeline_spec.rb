@@ -56,7 +56,6 @@ describe ImageVise::Pipeline do
 
     image = Magick::Image.read(test_image_grayscale_srgb_path)[0]
     pipeline.apply! image
-    examine_image(image, "srgb_test")
     image.write("srgb_test_saved.png")
   end
 
