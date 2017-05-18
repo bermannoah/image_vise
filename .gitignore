@@ -6,4 +6,9 @@ Gemfile.lock
 *.log
 pkg
 coverage
+
+# Ignores file needed for massive psd test
 /spec/massive_pdf_test.psd
+
+# Ignores file created by srgb test
+srgb_test_saved.png

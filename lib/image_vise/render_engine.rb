@@ -308,7 +308,7 @@ class ImageVise::RenderEngine
     image_list = Magick::Image.read(source_file_path)
     magick_image = image_list.first
 
-    # Apply the pipeline
+    # Apply the pipeline and convert image to sRGB
     pipeline.srgb.apply!(magick_image)
 
     # If processing the image has created an alpha channel, use PNG always.
