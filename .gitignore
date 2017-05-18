@@ -6,3 +6,4 @@ Gemfile.lock
 *.log
 pkg
 coverage
+/spec/massive_pdf_test.psd
