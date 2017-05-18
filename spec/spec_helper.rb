@@ -82,6 +82,10 @@ RSpec.configure do | config |
     File.expand_path(__dir__ + '/waterside_magic_hour_adobergb.jpg')
   end
 
+  def test_image_grayscale_srgb_path
+    File.expand_path(__dir__ + '/grayscale.png')
+  end
+
   def public_url
     'http://localhost:9001/waterside_magic_hour.jpg'
   end
